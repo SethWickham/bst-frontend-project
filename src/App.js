@@ -2,17 +2,18 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import InputFirstName from './Components/InputFirstName';
-import RenderFirstNames from './Components/RenderFirstNames';
+import Navbar from './Components/Navbar.component';
+import InputFirstName from './Components/InputFirstName.component';
+import RenderFirstNames from './Components/RenderFirstNames.component';
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <h1>Breakthrough</h1>
-        <InputFirstName />
-        <RenderFirstNames />
-      </div>
+      <Navbar />
+      <Route path="/input" component={InputFirstName} />
+      <Route path="/render" component={RenderFirstNames} />
+
+      <div className="App" />
     </Router>
   );
 }

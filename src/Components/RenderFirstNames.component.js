@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 
 export default class RenderFirstNames extends Component {
   render() {
-    return <div>Hi I'm RENDER FIRST NAMES file</div>;
+    return (
+      <div>
+        <h1>RENDER NAMES</h1>{' '}
+      </div>
+    );
   }
 }
