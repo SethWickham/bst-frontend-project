@@ -29,6 +29,9 @@ export default class InputFirstName extends Component {
     axios
       .post('http://localhost:3200/firstNames/add', fName)
       .then(res => console.log(res.data));
+    this.setState({
+      firstname: ''
+    });
   }
 
   render() {
