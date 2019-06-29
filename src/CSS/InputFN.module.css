@@ -1,0 +1,9 @@
+.RenderContainer {
+  display: flex;
+  background-color: aquamarine;
+  color: blue;
+}
+
+/*<div className={styling.RenderContainer} />
+
+/*import styling from './CSS/RenderFN.module.css';

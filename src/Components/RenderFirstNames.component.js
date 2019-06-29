@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
+import styling from '../CSS/RenderFN.module.css';
+import renderbg from '../IMG/RenderBackground.jpg';
+
 const FirstName = props => (
   <div>
     <h3>There is no one like you {props.firstn.firstname}!</h3>
@@ -33,8 +36,9 @@ export default class RenderFirstNames extends Component {
 
   render() {
     return (
-      <div>
-        <h1>{this.firstnamelistHandler()}</h1>
+      <div className={styling.Container}>
+        <img src={renderbg} />
+        <h3 className={styling.List}>{this.firstnamelistHandler()}</h3>
       </div>
     );
   }

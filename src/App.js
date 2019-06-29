@@ -6,7 +6,6 @@ import Navbar from './Components/Navbar.component';
 import InputFirstName from './Components/InputFirstName.component';
 import RenderFirstNames from './Components/RenderFirstNames.component';
 import Home from './Components/Home.component';
-
 function App() {
   return (
     <Router>
@@ -14,8 +13,6 @@ function App() {
       <Route path="/input" component={InputFirstName} />
       <Route path="/render" component={RenderFirstNames} />
       <Route path="/home" component={Home} />
-
-      <div className="app" />
     </Router>
   );
 }

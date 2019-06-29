@@ -1,0 +1,12 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  margin: auto 10px;
+  width: auto;
+  height: 2000px;
+  background-color: greenyellow;
+}
+
+.List {
+  text-align: center;
+}
