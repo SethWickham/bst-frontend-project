@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar.component';
 import InputFirstName from './Components/InputFirstName.component';
 import RenderFirstNames from './Components/RenderFirstNames.component';
 import Home from './Components/Home.component';
+
 function App() {
   return (
     <Router>

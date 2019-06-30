@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
+import styling from '../CSS/InputFN.module.css';
+
 export default class InputFirstName extends Component {
   constructor(props) {
     super(props);
@@ -36,17 +38,19 @@ export default class InputFirstName extends Component {
 
   render() {
     return (
-      <div>
-        <h1>
-          <form onSubmit={this.onSubmit}>
-            <input
-              onChange={this.onChangeFirstname}
-              value={this.state.firstname}
-              placeholder="YOUR FIRST NAME"
-            />
-            <button>Submit</button>
-          </form>
-        </h1>
+      <div className={styling.Container}>
+        {' '}
+        <h2>Please enter your first name</h2>
+        <form onSubmit={this.onSubmit}>
+          <input
+            onChange={this.onChangeFirstname}
+            value={this.state.firstname}
+            placeholder="YOUR FIRST NAME"
+          />
+          <br />
+          <button className={styling.Button}>Enter</button>
+        </form>
+        <h3>...And then go to the Render Page</h3>
       </div>
     );
   }

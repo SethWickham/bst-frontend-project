@@ -1,0 +1,25 @@
+.Navbar {
+  flex: right;
+  margin: 2px;
+  color: black;
+  margin: auto 10px;
+  background-image: url('https://res.cloudinary.com/seth-fee-cloudinary32/image/upload/v1561840457/RenderBackground_mvycrf.jpg');
+}
+
+.Button {
+  background-color: rgb(255, 250, 175); /* Green */
+  border-radius: 2px;
+  color: rgb(24, 19, 19);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Button:hover {
+  background-color: yellow;
+  color: blue;
+}

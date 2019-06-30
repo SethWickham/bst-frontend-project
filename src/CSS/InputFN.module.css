@@ -1,9 +1,13 @@
-.RenderContainer {
+.Container {
   display: flex;
-  background-color: aquamarine;
-  color: blue;
+  justify-content: center;
+  margin: auto 10px;
+  width: auto;
+  height: 1000px;
+  background-image: url('https://res.cloudinary.com/seth-fee-cloudinary32/image/upload/v1561851406/thumbnail_Untitled_Artwork_uvfvdk.jpg');
+  background-size: 110%;
 }
 
-/*<div className={styling.RenderContainer} />
-
-/*import styling from './CSS/RenderFN.module.css';
+.Heading {
+  text-align: center;
+}

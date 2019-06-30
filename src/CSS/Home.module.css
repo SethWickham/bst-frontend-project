@@ -3,8 +3,9 @@
   justify-content: center;
   margin: auto 10px;
   width: auto;
-  height: 2000px;
-  background-color: aqua;
+  height: 800px;
+  background-image: url('https://res.cloudinary.com/seth-fee-cloudinary32/image/upload/v1561875903/image_p4wbz5.png');
+  background-size: 94%;
 }
 
 .Heading {
