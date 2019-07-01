@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+//here we are bringing in Link from react router dom that
+// will help with site navigation
 import { Link } from 'react-router-dom';
 
 import styling from '../CSS/Navbar.module.css';
@@ -6,6 +8,7 @@ import styling from '../CSS/Navbar.module.css';
 export default class Navbar extends Component {
   render() {
     return (
+      //  here we are setting our Links to the correct the appropriate locations and styling them
       <div className={styling.Navbar}>
         <Link to="/home">
           <button className={styling.Button} type="button">
@@ -19,7 +22,7 @@ export default class Navbar extends Component {
         </Link>
         <Link to="/render">
           <button className={styling.Button} type="button">
-            Render
+            Output
           </button>
         </Link>
       </div>
