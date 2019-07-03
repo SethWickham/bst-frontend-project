@@ -23,7 +23,7 @@ const FirstName = props => (
     </h3>
   </div>
 );
-// This is the Component for our Rendering Page (Output)
+// This is the Component for our Rendering Page (Output) this is a statuful component that we will be using to update our state
 export default class RenderFirstNames extends Component {
   constructor(props) {
     super(props);
