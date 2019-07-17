@@ -25,6 +25,11 @@ export default class Navbar extends Component {
             Output
           </button>
         </Link>
+        <Link to="/render">
+          <button className={styling.Button} type="button">
+            Contact
+          </button>
+        </Link>
       </div>
     );
   }
