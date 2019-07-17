@@ -4,10 +4,12 @@
   margin: auto 10px;
   width: auto;
   height: 800px;
-  background-image: url('https://res.cloudinary.com/seth-fee-cloudinary32/image/upload/v1561961483/image_ixfbdk.png');
+
   background-size: 94%;
 }
 
 .Heading {
+  margin: 100px;
   text-align: center;
+  justify-content: center;
 }
