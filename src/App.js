@@ -15,7 +15,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 // this is where we import our components into our Application
 import Navbar from './Components/Navbar.component';
 import InputFirstName from './Components/InputFirstName.component';
-import RenderFirstNames from './Components/RenderFirstNames.component';
+import OutputFirstNames from './Components/OutputFirstNames.component';
 import Home from './Components/Home.component';
 import Contact from './Components/Contact.component';
 
@@ -26,7 +26,7 @@ function App() {
     <Router>
       <Navbar />
       <Route path="/input" component={InputFirstName} />
-      <Route path="/render" component={RenderFirstNames} />
+      <Route path="/render" component={OutputFirstNames} />
       <Route path="/home" component={Home} />
       <Route path="/contact" component={Contact} />
     </Router>

@@ -3,7 +3,7 @@ import React from 'react';
 //here we are bringing in our css styling.
 import styling from '../CSS/Contact.module.css';
 
-// stateless component that contains our home component
+// stateless Contact component
 const Contact = props => (
   <div className={styling.Container}>
     <h1 className={styling.Heading}>

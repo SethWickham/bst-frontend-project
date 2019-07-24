@@ -20,7 +20,7 @@ export default class Navbar extends Component {
             Input
           </button>
         </Link>
-        <Link to="/render">
+        <Link to="/output">
           <button className={styling.Button} type="button">
             Output
           </button>

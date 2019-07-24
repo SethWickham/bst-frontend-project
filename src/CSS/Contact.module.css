@@ -1,5 +1,6 @@
 .Container {
   display: flex;
+
   justify-content: center;
   margin: auto 10px;
   width: auto;
