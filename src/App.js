@@ -26,7 +26,7 @@ function App() {
     <Router>
       <Navbar />
       <Route path="/input" component={InputFirstName} />
-      <Route path="/render" component={OutputFirstNames} />
+      <Route path="/output" component={OutputFirstNames} />
       <Route path="/home" component={Home} />
       <Route path="/contact" component={Contact} />
     </Router>

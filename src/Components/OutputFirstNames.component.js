@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-import styling from '../CSS/RenderFirstNames.module.css';
+import styling from '../CSS/OutputFirstNames.module.css';
 
 //here we have a stateless component. There are basically two types
 //of components in React ones that are class based (see the RenderFirstNames component)
